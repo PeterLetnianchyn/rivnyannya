@@ -3,7 +3,7 @@ function incomingOutputdata() {
 	let b = document.getElementById('b').value;
 	let c = document.getElementById('c').value;
 	let result = quadraticEquation(a, b, c);
-	document.getElementById('result').textContent = result;
+	alert('Answer is' + result)
 }
 
 function quadraticEquation(a, b, c) {
