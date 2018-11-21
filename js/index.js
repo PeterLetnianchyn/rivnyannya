@@ -8,7 +8,7 @@ function incomingOutputdata() {
 
 function quadraticEquation(a, b, c) {
 	if (a === 0) return "Error, а=0 Invalid value!";
-	let D = b * b - 4 * a * c; //discriminator
+	const D = b * b - 4 * a * c; //discriminator
 	let x1, x2;
 	if (D > 0) {
 		x1 = (-b + Math.sqrt(D)) / (2 * a);
