@@ -3,11 +3,11 @@ function incomingOutputdata() {
 	const b = document.getElementById('b').value;
 	const c = document.getElementById('c').value;
 	let result = quadraticEquation(a, b, c);
-	alert('Answer is' + result)
+	alert('Answer is' + result);
 }
 
 function quadraticEquation(a, b, c) {
-	if (a == 0) return "Error, а=0 Invalid value!";
+	if (a === 0) return "Error, а=0 Invalid value!";
 	let D = b * b - 4 * a * c; //discriminator
 	let x1, x2;
 	if (D > 0) {
